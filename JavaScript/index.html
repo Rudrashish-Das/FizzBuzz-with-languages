@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FizzBuzz: JavaScript</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1>FizzBuzz</h1>
+            <h1 class="desc">JavaScript</h1>
+        </div>
+        <hr class="rounded">
+        <div>
+            <input type="radio" name="input_num" checked="true" value="lower_upper"><label> Default: 1 to 256</label><br>
+            <input type="radio" name="input_num" value="none"><label> Max Upper</label><p>(running this might crash your browser)</p>
+        </div><br>
+        <div>
+            <input id="lowerBox" type="text" placeholder="Lower (optional)">
+            <input id="upperBox" type="text" placeholder="Upper (optional)">
+        </div><br>
+        <button id="submit">Run</button>
+        <script src="./script/main.js" type="module"></script>
+    </body>
+</html>
