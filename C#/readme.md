@@ -14,7 +14,7 @@
 
 I have used the [***Mono JIT compiler***](https://wiki.archlinux.org/title/mono) ***version 6.12.0***  for my tests.
 
->_**Note:** This already contains a prebuilt binary for your convenience_
+>_**Note:** This already contains a prebuilt binary for your convenience._
 
 To **compile**, run
 >mcs -t:library -out:bin/fizzbuzz.dll src/impl/fizzbuzz.cs && mcs -reference:bin/fizzbuzz.dll -t:exe -out:bin/main.exe src/main.cs
